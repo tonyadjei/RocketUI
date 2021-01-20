@@ -1,5 +1,6 @@
 import Tooltip from './rocket-ui/tooltip';
 import Dropdown from './rocket-ui/dropdown';
+import Tabs from './rocket-ui/tabs';
 
 // create a tooltip
 const tooltip = new Tooltip(document.querySelector('.tooltip'));
@@ -13,3 +14,8 @@ const tooltip = new Tooltip(document.querySelector('.tooltip'));
      const instance = new Dropdown(dropdown);
      instance.init();
  })
+
+
+ // create tabs
+ const tabs = new Tabs(document.querySelector('.tabs'));
+ tabs.init();
